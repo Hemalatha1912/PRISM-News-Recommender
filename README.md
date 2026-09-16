@@ -57,9 +57,3 @@ topic list, sample size, or random seed.
   to the original source, consistent with how a real news aggregator
   should handle licensed content.
 
-## Deliberately out of scope
-
-Per the "keep it simple" brief: no accounts, no chat/social features, no
-fact-checking layer, no LLM-generated debate summaries. Four components
-only — perspective labeling (via AllSides), personalized ranking, diversity
-injection, and explanation — matching the architecture in `/about`.
