@@ -42,18 +42,4 @@ npm run dev
 3. `eval.py` runs the traditional-vs-PRISM simulation and writes
    `evaluation.json`.
 
-Re-run both scripts (`python3 curate.py && python3 eval.py`, from the repo
-root with the dataset cloned alongside) to regenerate with a different
-topic list, sample size, or random seed.
-
-## Naming choices, and why
-
-- The exposure panel is labeled **"Your reading exposure"**, not "political
-  position" — it reports the distribution of labels among what you've
-  opened this session, not a claim about your political identity.
-- Bias labels are attributed to **AllSides**, not presented as something
-  this app's own model determined.
-- Article bodies are never displayed or reproduced — every card links out
-  to the original source, consistent with how a real news aggregator
-  should handle licensed content.
 
