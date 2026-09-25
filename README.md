@@ -12,5 +12,4 @@ npm install
 npm run dev
 ```
 
-  computed by `eval.py`, not hand-picked.
-
+ 
